@@ -18,6 +18,7 @@ abstract class House {
 
   constructor(public key: Key) {
     this.door = false;
+    this.tenants = [];
   }
 
   comeIn(person: Person) {
